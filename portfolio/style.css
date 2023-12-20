@@ -157,6 +157,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: 0px 0px 30px rgba(43, 44, 44, 0.1);
 }
 .section-projects:after {
   content: "";
@@ -172,4 +173,58 @@
   filter: blur(50px);
   background-blend-mode: soft-light;
   opacity: 0.5;
+}
+
+/* Kontakt */
+
+.kontakt-boxes {
+  padding: 6.4rem 0;
+  display: grid;
+  grid-template-columns: 35fr 30fr 35fr;
+  gap: 4.8rem;
+  justify-content: center;
+  align-items: end;
+}
+
+.avatar-box {
+  width: 80%;
+}
+
+.img-avatar {
+  filter: drop-shadow(-5px -30px 20px #c3c7c68c);
+  opacity: 0.9;
+  width: 100%;
+  transition: all 0.5s;
+}
+.img-avatar:hover {
+  filter: drop-shadow(-5px -30px 10px #c3c7c68c);
+  opacity: 1;
+}
+
+.kontakt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.kontakt-link {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #6d6f6e21;
+  opacity: 0.9;
+}
+
+.links-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+/* footer */
+
+.footer-p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.4;
 }

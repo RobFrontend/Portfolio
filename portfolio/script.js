@@ -95,12 +95,12 @@ navLink.forEach((navLink) => {
 });
 
 // ////////////////////////////////////
-const tran = document.querySelector(".tran");
-const btnNav = document.querySelector(".icon-mobile-nav-close");
+// const tran = document.querySelector(".tran");
+// const btnNav = document.querySelector(".icon-mobile-nav-close");
 
-if (header.contains("nav-open")) {
-  tran.style.zIndex = "-1";
-}
-if (!header.contains("nav-open")) {
-  tran.style.zIndex = "0";
-}
+// if (header.contains("nav-open")) {
+//   tran.style.zIndex = "-1";
+// }
+// if (!header.contains("nav-open")) {
+//   tran.style.zIndex = "0";
+// }
